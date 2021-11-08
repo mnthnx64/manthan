@@ -1392,6 +1392,27 @@ input::-moz-focus-inner {
   top: 24px;
 }
 
+.pub-links{
+  list-style: none;
+  margin: 0;
+}
+
+.pub-links li{
+  display: inline-block;
+}
+
+.pub-links li a{
+  color: #CACACA;
+  border-bottom: 1px solid transparent;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+  margin-right: 2rem;
+}
+
+.pub-links li a:hover{
+  cursor: pointer;
+  border-bottom: 1px solid #ffffff;
+}
 
 /* -------------------------------------------------------------------
  * ## header logo
